@@ -1,0 +1,49 @@
+html {background-color: black}
+
+div {
+    margin-top: 40px;
+  }
+body{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 0.8;
+    font-style: normal; 
+}
+.under{
+    text-decoration: underline;
+}
+h1{
+    font-size: 4rem;
+    line-height: 0;
+    font-weight: 700;
+    color: #e0ffa8
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 500;
+    font-style: italic;
+}
+h3{
+    margin-top: 4rem;
+    font-size: 2rem;
+    line-height: 1;
+}
+p.italic {
+    font-style: italic;
+}
+.wrapper {
+    display:flex;
+}
+.column {
+    width: 60rem; 
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
+footer{
+    margin-top: 3rem;
+    font-size: 1rem;
+    font-style: italic;
+}

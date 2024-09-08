@@ -1,0 +1,63 @@
+.background{
+    width: 100vw;
+    height: 190vh;
+    background-image: url("images/field.jpeg");
+    background-size: cover;
+    background-position: center top;   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    z-index: -1;
+}
+.container{
+    position: relative;
+    text-align: center-top;
+    z-index: 0;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+body {
+    font-family: "presti-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2e1c01;
+    position: relative;
+    z-index: 1;
+}
+h1{
+    font-size: 4.5rem;
+    line-height: 0;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 9rem;
+}
+h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 400;
+    font-style: italic
+}
+.first{
+    margin-top: 3rem;
+}
+footer{
+    margin-top: 4rem;
+    font-size: .8rem;
+    font-style: italic;
+    margin-bottom: 3;
+}
+.wrapper {
+    display:flex;
+}
+.column {
+    width: 60rem; 
+    margin: auto;
+}
+.center{
+    text-align: center;
+}

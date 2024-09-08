@@ -32,6 +32,9 @@ h3{
 p.italic {
     font-style: italic;
 }
+.color{
+    color: #e0ffa8
+}
 .wrapper {
     display:flex;
 }

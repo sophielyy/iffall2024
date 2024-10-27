@@ -1,0 +1,303 @@
+a#btn_moo {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 10px 40px;
+    background-color: white;
+    border: 1px solid #00ac73;
+    color: #00ac73;;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+a#btn_moo:hover {
+    background-color: #ecefed;
+}
+
+a#btn_insta {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-image: linear-gradient(#fbad50, #cd486b);
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_insta:hover {
+    background-image:none;
+    color: #cd486b;
+    border: 5px solid #cd486b;
+    font-size: 55px
+}
+
+a#btn_hsn {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+    background-color: #0077c8;
+    color: #fff;
+    text-align: center;
+    font-family: "area-inktrap-extended", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -3px;
+    text-indent: -1px;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a#btn_hsn:hover {
+    letter-spacing: 6px;
+    text-align: center;
+    text-indent: -8px;
+}
+
+a#btn_stjude {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px 20px 0 20px;
+    background-color: #d11947;
+    border: 2px solid #d11947;
+    color: white;
+    font-size: 18px;
+    font-family: "nagel-variable", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_stjude:hover {
+    background-color: #135cb0;
+    border: 2px solid #135cb0;
+    color: #fff;
+    box-shadow: 0 0 15px lightskyblue;
+}
+
+a#btn_stjude:active {
+    box-shadow: 0 0 30px #135cb0;   
+}
+
+
+a#btn_pastaria {
+    display: inline-block;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 40px 10px 40px;
+    background-color: #064047;
+    border: 1px solid #064047;
+    color: #f04924;
+    text-align: center;
+    font-family: "oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    transition: all .2s;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a#btn_pastaria span{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a#btn_pastaria:hover {
+    font-size: 30px;
+}
+
+a#btn_pastaria:hover span{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+a#btn_mobot {
+    display: inline-block;
+    height: 120px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 0px 20px 0px 40px;
+    background-color: #F3D174;
+    border: 1px solid #F3D174;
+    color: #000;
+    text-align: left;
+    font-family: "transat-text", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+a#btn_mobot i{
+    font-size: 65px;
+    text-align: left;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0;
+}
+.grid li{
+    display: block;
+}
+
+a#btn_mobot:hover i{
+    transform: translate(-50%, 0%) rotate(-45deg) ;
+    transition: 1s;
+}
+
+a#btn_mobot:active{
+   background-color: white;
+}
+
+a#btn_kittens {
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    box-sizing: border-box;
+    border-radius: 70px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px 0px 10px 00px;
+    background-color: #000;
+    color: white;;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    font-weight: 70;
+    font-style: normal;
+    line-height: 28px;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+a#btn_kittens p{
+    margin: 0;
+}
+
+a#btn_kittens i{
+    font-size: 35px;
+}
+
+a#btn_kittens:hover {
+    background-image: url(../images/fire.jpg);
+    background-color: #ecefed;
+}
+
+
+a#btn_kittens:active {
+    box-shadow: 0 0 30px orangered;
+}
+
+a#btn_ny {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 13px 20px 0 20px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    font-family: "forum", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+a#btn_ny:hover {
+    background-color: black;
+    color: #fff;
+}
+
+a#btn_old {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 13px 20px 0 20px;
+    background-color: rgb(0, 55, 100);
+    border: 1px solid rgb(0, 55, 100);
+    color: white;
+    font-size: 18px;
+    font-family: "raleway", sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+a#btn_old:hover {
+    background-color: white;
+    color: rgb(0, 55, 100);
+}
+
+a#btn_old:active {
+    background-color: rgb(0, 143, 81);
+    color: white;
+    border: 1px solid rgb(0, 143, 81);
+    box-shadow: 0 0 15px rgb(0, 143, 81);
+}
+
+a#btn_fb {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #1877F2;
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    transition: all .2s;
+}
+
+a#btn_fb:hover {
+    font-size: 90px;
+}
+
+a#btn_fb:active {
+    box-shadow: 0 0 25px #1877F2;
+    font-size: 77px;
+}

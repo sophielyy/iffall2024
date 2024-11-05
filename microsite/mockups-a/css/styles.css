@@ -1,0 +1,40 @@
+html{
+    width: 80%;
+    margin: auto;
+    font-family: "nagel-variable", sans-serif;
+}
+
+.grid-mobile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0;
+}
+
+.grid-mobile li{
+    display: block; 
+}
+
+img{
+    width: 100%;
+}
+
+.grid-desktop{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+.grid-desktop li{
+    display: block;
+}
+
+.Desktop img{
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}

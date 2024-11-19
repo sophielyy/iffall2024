@@ -62,8 +62,8 @@ h4{
 }
 
 p{
-    font-family: "Chivo", sans-serif;
-    font-weight: 400;
+    font-family: "chivo", sans-serif;
+    font-weight: 100;
     font-style: normal; 
     color: white;
     line-height: 1.5em;
@@ -274,7 +274,7 @@ a#btn_nav{
         margin-top: 4rem;
     }
     footer{
-        position: static;
+        position: fixed;
     }
 }
 @media (max-width: 900px) {

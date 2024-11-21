@@ -1,0 +1,463 @@
+html {
+    font-family: 'Minecraft-Regular';
+    src:url('../Minecraft-Regular.ttf.woff') format('woff'),
+        url('../Minecraft-Regular.ttf.svg#Minecraft-Regular') format('svg'),
+        url('../Minecraft-Regular.ttf.eot'),
+        url('../Minecraft-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Minecraft-Regular';
+    background-color: forestgreen;
+    background-image: url(../images/background-2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.homepage{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.logo{
+    width: 100%;
+    margin-top: 20%;
+}
+
+h1{
+    font-size: 150px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-family: "Minecraft-Regular";
+    font-size: 50px;
+    color: yellow;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px 5px black;
+}
+
+h3{
+    font-size: 75px;
+    color: white;
+    font-weight: 400;
+    text-indent: 2rem;
+    margin-bottom: .4em;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: yellow;
+    margin: 0;
+}
+
+p{
+    font-family: "chivo", sans-serif;
+    font-weight: 100;
+    font-style: normal; 
+    color: white;
+    line-height: 1.5em;
+    font-size: 17px;
+}
+.grow {
+    text-align: center;
+    animation: grow-animation 4.5s linear infinite;
+  }
+  
+  @keyframes grow-animation {
+    0% { transform: scale(.95); }
+    50% {transform: scale(1.3); }
+    100% {transform: scale(.95); }
+  }
+
+.grid{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+
+.grid li{
+    display: block;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+a#btn_home{
+    display: inline-block;
+    height: 80px;
+    width: 320px;
+    box-sizing: border-box;
+    background-image: url(../images/button.jpg);
+    background-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 1rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: white;
+    font-size: 20px;
+}
+
+.dev{
+    background-color: rgb(51, 31, 11);
+    background-image: url(../images/dirt-background.jpg);
+    background-repeat: repeat;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.game{
+    background-color: rgb(49, 49, 49);
+    background-image: url(../images/stone-background.jpg);
+    background-repeat: repeat;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.char{
+    background-color:rgb(85, 32, 32);
+    background-image: url(../images/nether-background.jpg);
+    background-repeat: repeat;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.worlds{
+    background-color:rgb(8, 11, 31);
+    background-image: url(../images/obsidien-background.jpg);
+    background-repeat: repeat;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin-bottom: 7rem;
+}
+
+.grid-text li{
+    display: block;
+    padding: 2em;
+}
+
+.grid-text img{
+    width: 95%;
+}
+
+.grid-cha{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin-bottom: 7rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.grid-cha li{
+    display: block;
+    padding: 2em;
+}
+
+
+.start .grid-text{
+    margin-bottom: 4rem;
+}
+
+.small{
+    max-width: 900px;
+    margin: auto;
+}
+.small{
+    width: 80%;
+}
+
+.big{
+    width: 150%;
+}
+.align{
+    text-align: right;
+}
+
+#extra {
+    display: none;
+}
+
+
+#creeper img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+#chicken img:hover {
+    animation: bounce 1s;
+    animation-iteration-count: infinite;
+  }
+    @keyframes bounce{
+        0% {transform: translate(0px, 0px);}
+        25% {transform: translate(0px, -30px);}
+        50% {transform: translate(0px, 0px);}
+        75% {transform: translate(0px, -50px);}
+        100% {transform: translate(0px, 0px);}
+    }
+
+#zombie img{
+    width: 70%;
+}
+#zombie img:hover{
+    animation: move 2s;
+    animation-iteration-count: infinite;
+  }
+    @keyframes move{
+        0% {transform: translate(0px, 0px);}
+        100% {transform: translate(-50px, 0px);}
+    }
+
+    #steve img:hover{
+        animation: swing 1s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes swing { 
+        0% { transform: rotate(5deg); } 
+        25% { transform: rotate(-5deg); } 
+        50% { transform: rotate(5deg); } 
+        75% { transform: rotate(-5deg); } 
+        100% { transform: rotate(5deg); } 
+     } 
+
+#dragon img:hover{
+    animation: glow 3s;
+    animation-iteration-count: infinite;
+    
+}
+    @keyframes glow { 
+        0% {filter: drop-shadow(0 0 0rem rgb(164, 137, 255));}
+        50% {filter: drop-shadow(0 0 3rem rgb(164, 137, 255));}
+        100% {filter: drop-shadow(0 0 0rem rgb(164, 137, 255));}
+    }
+
+
+a#btn_nav{
+    font-family: "Minecraft-Regular";
+}
+
+.static{
+    position: static;
+    bottom:0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.right a{
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width: 1120px) {
+    .grid{
+        width: 70%;
+        margin: 0 10% 0 10%;
+    }
+}
+@media (max-width: 970px) {
+    .grid-text{
+        grid-template-columns: 1fr;
+    }
+    .big{
+        width: 100%;
+    }
+
+    .align img{
+        width: 50%;
+    }
+    .grid-cha li{
+        padding: 1em;
+    }
+    .grid-text li{
+        padding: 1em
+    }
+    h1{
+        font-size: 130px;
+        margin: .5rem;
+        margin-top: 4rem;
+    }
+    footer{
+        position: fixed;
+    }
+}
+@media (max-width: 900px) {
+    .grid{
+        width: 70%;
+        margin: 0;
+    }
+    h1{
+        font-size: 100px;
+    }
+    #zomnbie {
+        width: 90px;
+    }
+}
+@media (max-width: 800px) {
+    .grid{
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+    a#btn_home{
+        height: 70px;
+        width: 280px;
+        font-size: 27px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .grid-cha{
+        grid-template-columns: 1fr;
+    }
+    .grid-cha img{
+        width: 70%;
+    }
+    .grid-cha li{
+        padding-bottom: 0;
+    }
+    #extra{
+        display: block;
+        justify-items: center;
+    }
+    #show {
+        display: none;
+    }
+    .align{
+        text-align: center;
+    }
+    .center{
+        text-align: center;
+    }
+    .logo{
+        margin-top: 30%;
+    }
+    h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    h3{
+        font-size: 55px;
+    }
+    #creeper{
+        width: 55%;
+    }
+    #zombie li{
+         justify-content: center;
+    }
+    #zombie img{
+        width: 50%;
+    }
+}
+
+@media (max-width: 410px) {
+    h1{
+    font-size: 50px;
+    }
+}
+
+
+nav{
+    width: 100%;
+    height: 6%;
+    background-color: rgb(16, 81, 16);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-left: 5rem;
+}
+
+.flex a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.page{
+    text-decoration: underline;
+    color: yellow;
+}
+
+.flex li{
+    display: block;
+    padding-right: 2rem;
+    font-size: 20px;
+}
+.flex li:hover{
+    text-shadow: 0 0 15px rgb(243, 255, 134);
+}
+
+@media (max-width: 700px) {
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+}
+.flex{
+    padding-left: 2rem;
+}
+.flex li{
+    display: block;
+    padding-right: 1rem;
+}
+}
+@media (max-width: 553px) {
+    h1{
+        padding-top: 2.5rem;
+    }
+    nav{
+        height: 8%;
+    }
+    .flex li{
+        font-size: 17px;
+    }
+}

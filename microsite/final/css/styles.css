@@ -1,4 +1,4 @@
-html {
+@font-face {
     font-family: 'Minecraft-Regular';
     src:url('../Minecraft-Regular.ttf.woff') format('woff'),
         url('../Minecraft-Regular.ttf.svg#Minecraft-Regular') format('svg'),
@@ -153,6 +153,37 @@ footer{
     margin: auto;
 }
 
+.sources{
+    background-color:rgb(8, 11, 31);
+    background-image: url(../images/wood-background.jpg);
+    background-repeat: repeat;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sources h1{
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+#book{
+    width: 79%;
+    background-image: url(../images/book.png);
+    background-color: beige;
+    background-repeat: no-repeat;
+    padding: 10% 0% 78% 10%;
+}
+
+.book{
+    position: absolute;
+    z-index: -1;
+    justify-content: center;
+    width: 40%;
+}
+
+
 .grid-text{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -183,7 +214,28 @@ footer{
     padding: 2em;
 }
 
+.grid-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem;
+    padding-top: 5rem;
+    margin: auto;
+}
+.grid-two li{
+    display: block;
+    padding: 2em;
+    justify-items: center;
+}
 
+#source{
+    padding: 10% 0% 0% 0%;
+}
+#source p{
+    color: black;
+    font-weight: 300;
+    font-size: 19px;
+    padding: 0 3em 0 3em;
+}
 .start .grid-text{
     margin-bottom: 4rem;
 }
@@ -300,6 +352,15 @@ a#btn_nav{
 @media (max-width: 970px) {
     .grid-text{
         grid-template-columns: 1fr;
+    }
+    .grid-two{
+        grid-template-columns: 1fr;
+    }
+    .book{
+        width: 80%;
+    }
+    .grid-two li{
+        padding-top: 0;
     }
     .big{
         width: 100%;

@@ -4,15 +4,14 @@ html{
     font-style: normal;
     font-size: 14pt;
     line-height: 1.7;
-    background-color: tan;
+    background-color: rgb(255, 253, 246);
 }
 header{
-    background-image: url(../images/banner.jpg);
+    background-image: url(../images/new-banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 40px;
     width: 100%;
     color: white;
 }
@@ -42,19 +41,44 @@ h3{
     margin-top: 0;
 }
 h4{
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: 500;
     line-height: 0;
-    margin-top: 3rem;
+    margin-top: 1rem;
+}
+h5{
+    font-size: 18pt;
+    font-weight: 500;
+    line-height: 0;
+    margin: 2.2rem 0rem 1rem 0rem;
+}
+img{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.grid-top
+{
+    display: grid;
+    grid-template-columns: .5fr 1.2fr;
+}
+.grid-top li{
+    display: block;
+    
+}
+.space{
+    padding-left: 2rem;
+}
+#top{
+    width: 100%;
 }
 .one{
-    background-color:sandybrown
+    background-color: none;
 }
 .ingredients{
     max-width: 1000px;
     width: 85%;
     margin: auto;
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
 }
 .items{
@@ -86,15 +110,15 @@ h4{
     padding-top: 1rem;
 }
 .mincedpork{
-    background-color: darksalmon;
+    background-color: none;
     padding-bottom: 1rem;
 }
 .toassemble{
-    background-color:peachpuff;
+    background-color: none;
 }
 .using-grid{
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.3fr 1fr;
 }
 .using-grid li{
     padding: 1rem;
@@ -106,7 +130,7 @@ h4{
     width: 90%;
 }
 .full{
-    background-color:blanchedalmond;
+    background-color:none;
 }
 .gallery{
     max-width: 1200px;
@@ -143,15 +167,49 @@ footer{
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+    .description{
+        width: 75%;
+    }
+  }
+  @media (max-width: 1300px) {
+    .description{
+        width: 80%;
+    }
+  }
+  @media (max-width: 1100px) {
+    .grid-top{
+        grid-template-columns: .6fr 1fr;
+        padding-left: 0;
+    }
+    .description{
+        width: 90%;
+    }
   }
 @media (max-width: 800px) {
+    .description{
+        width: 90%;
+    }
+    header{
+        padding-top: 40px;
+    }
+    .grid-top{
+        grid-template-columns: 1fr;
+        padding-left: 0;
+    }
+    .grid-top li{
+        padding-left: 1rem;
+    }
+    #top{
+        width: 65%;
+    }
     .first-grid{
         grid-template-columns: 1fr;
         padding-left: 0; 
     }
     .first{
-        padding-top: 2rem;
+        margin-top: 2rem;
+        padding-top: 0rem;
         width: 100%;
     }
     .using-grid { 
@@ -162,7 +220,8 @@ footer{
         padding-bottom: 0;
     }
     .instruction-image{
-        padding-bottom: 1.2rem;
+        padding-bottom: 0rem;
+        margin-bottom: 1.2rem;
     }
     .gallery{
         width: 100%;
@@ -177,4 +236,9 @@ footer{
         font-size: 16pt;
     }
 
+}
+@media (max-width: 700px) {
+    #top{
+        width: 80%;
+    }
 }
